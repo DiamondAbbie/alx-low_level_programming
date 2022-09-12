@@ -18,9 +18,8 @@ for (j = 97; j < 103; j++)
 {
 putchar(j);
 }
-  
-putchar('\n');
 
+putchar('\n');
 return (0);
   
 }
