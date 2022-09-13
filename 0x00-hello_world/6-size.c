@@ -11,7 +11,7 @@ int char1 = sizeof(char);
 int int1 = sizeof(int);
 int long_int = sizeof(long int);
 int longLong = sizeof(long long int);
-int float1 = sizeof(float)
+int float1 = sizeof(float);
 
 printf("Size of a char: %d byte(s)\n", char1);       
 printf("Size of an int: %d byte(s)\n", int1); 
