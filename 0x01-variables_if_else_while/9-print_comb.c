@@ -1,25 +1,26 @@
 #include <stdio.h>
 
 /**
- * main - prints a series of numbers with commas
- * Return: Always 0 (Success)
- */
+* main - Prints all possible combinations of single-digit numbers.
+* Return: Always 0 (SUCCESS)
+*/
+
 int main(void)
 {
-	int c;
+int i;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-		putchar(c);
+for (i = 0; i < 10; i++)
+{
+putchar((i % 10) + '0');
+if (i == 9)
 
-		if (c ! = '9')
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
+continue;
+putchar(',');
+putchar(' ');
 
-	putchar('\n');
+}
 
-	return (0);
+putchar('\n');
+
+return (0);
 }
