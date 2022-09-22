@@ -3,8 +3,8 @@
 
 /**
  * _strcat - Concatenates two strings together
- * @dest: The destination string
- * @src: The source string
+ * @dest: The destination value
+ * @src: The source value
  * Return: A pointer to the resulting string dest
  */
 
@@ -17,9 +17,9 @@ dlen++;
 }
 for (i = 0; scr[i] != 0; i++)
 {
-(dest[dlen]) = src[i];
+dest[dlen] = src[i];
 dlen++;
 }
 dest[dlen] = '\0';
 return (dest);
-}
+} 
