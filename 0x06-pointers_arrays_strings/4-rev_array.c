@@ -3,8 +3,8 @@
 
 /**
  * Reverse_array - Reverses the content of an array of integers
- * @a: An array of integers
- * @n: Number of elements to swap
+ * @a: Array identifier
+ * @n: Max length of array
  * Return: Void
  */
 
@@ -22,5 +22,6 @@ temp = *(a + j);
 *(a + (j - 1)) = temp;
 }
 }
+
 }
 
